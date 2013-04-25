@@ -1,6 +1,9 @@
 Simple-Javascript-MVC
 =====================
 
+Contact me on:
+http://www.mycreativedesign.co.uk
+
 A a very light implementation of a JavaScript MVC framework with the following features.
 - Easily extensible
 - Autoloader to load JS files
@@ -50,11 +53,9 @@ Application.Define('Application.View.Profile', {
     },
     buildHtml: function() {
         if (this.user instanceof Application.Model.User) {
-            return '<h3>Welcome ' + this.user.getName() + '</h3>'
+            return 'Welcome ' + this.user.getName();
         }
     }
 });
 </pre>
-contact me on:
-http://www.mycreativedesign.co.uk
 

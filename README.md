@@ -8,6 +8,7 @@ A a very light implementation of a JavaScript MVC framework with the following f
 
 Example Controller Usage:
 
+<pre>
 Application.Define('Application.Controller.Test', {
     parent: 'Application.Controller.Abstract',
     requires: [
@@ -53,7 +54,7 @@ Application.Define('Application.View.Profile', {
         }
     }
 });
-
+</pre>
 contact me on:
 http://www.mycreativedesign.co.uk
 

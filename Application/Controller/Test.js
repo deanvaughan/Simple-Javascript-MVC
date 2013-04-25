@@ -1,18 +1,24 @@
 Application.Define('Application.Controller.Test', {
     parent: 'Application.Controller.Abstract',
     requires: [
-        'Application.Model.User'
+        'Application.Model.User',
+		'Application.View.Profile'
     ], 
     init: function(options) {
-		// do what you like here..
+	
+		this._super(options);
+	
+		// Small example usuage:
+		
+		// Create instance of user object
 		var user = new Application.Model.User({
 			name: 'dean'
 		});
 		
-		console.log(user.getName());
-		
-		this._super(options);
-		
+		// build a view parsing in the user instance		
+		var view = new Application.View.Profile({
+			user: user
+		});
 	}
 });
             

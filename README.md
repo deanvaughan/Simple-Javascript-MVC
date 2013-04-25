@@ -23,12 +23,12 @@ Application.Define('Application.Controller.Test', {
                 
         // Create instance of user object
         var user = new Application.Model.User({
-  		name: 'dean'
+  	     name: 'dean'
         });
 
         // build a view parsing in the user instance		
         var view = new Application.View.Profile({
-			user: user
+	     user: user
         });
     }
 });

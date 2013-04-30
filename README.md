@@ -4,7 +4,7 @@ Simple-Javascript-MVC
 Contact me on:
 http://www.mycreativedesign.co.uk
 
-A a very light implementation of a JavaScript MVC framework with the following features.
+A micro MVC framework with the following features.
 - Easily extensible
 - Autoloader to load JS files
 - Tiny footprint (built of only a few classes)
